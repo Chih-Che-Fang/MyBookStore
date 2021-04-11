@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Start docker service 
+# Start docker service
 sudo service docker start
 sudo usermod -a -G docker ec2-user
 
